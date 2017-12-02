@@ -49,7 +49,7 @@ span{
 
 #logo-img {
   background: url('../images/codedoor-logo.png') no-repeat;
-  width: 130px;
+  width: 136px;
   height: 130px;
   margin: 15px;
 	float: left;
@@ -874,14 +874,33 @@ background: #fff;
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-.container-fluid> .avbar-header{
+.container-fluid> .navbar-header{
     margin-right: 15px;
 }
+	#nav-list{
+		margin: 1px;
+		display: -webkit-box;
+	}
+	#nav-list a {
+  margin-left: 0px;
+	padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+	#books-img{
+		margin-top: 98px;
+	}
+	.photo-community p{
+		margin-left: 40px;
+	}
+	.photo-community button{
+		margin-left: 28px;
+	}
+
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-
 
   /* Footer */
   .panel-footer section {
