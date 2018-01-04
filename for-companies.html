@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Codedoor</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
-<header>
+    <header id="for-companies-background">
     <nav id="header-nav" class="navbar navbar-default">
         <div class="container-fluid">
             <div id="nav-logo" class="navbar-header">
@@ -30,7 +31,7 @@
             <div id="row-nav" class="row">
             <div id="collapsable-nav" class="collapse navbar-collapse">
                 <ul id="nav-list" class="nav navbar-nav">
-                    <li id="navHomeButton" >
+                    <li class="" id="navHomeButton" >
                         <a href="index.html"><br class="hidden-xs">HOME</a>
                     </li>
                     <li id="navMenuButton">
@@ -51,7 +52,7 @@
             </div>
             <div class="col-md-12 text-area">
                 <p id="networking-text">With Codedoor your,<br>employees learn how to code</p>
-                <p id="form-3">__________</p>
+                <p id="form-3"></p>
                 <p class="contact-text">Build your own programming class!</p>
                 <a href="#"><button type="button" class="btn btn-primary">Contact us for more information &gt; </button></a>
             </div>      
@@ -116,14 +117,13 @@
 	  <div class="col-md-12 row-title">
   	<h4>Our Partners</h4>
   </div>
-  <div class="row row-center">
+  <div class="row">
   	<div class="col-md-12">
                 <div id="Carousel" class="carousel slide">
                  
                 <ol class="carousel-indicators">
                     <li data-target="#Carousel" data-slide-to="0" class="active"></li>
                     <li data-target="#Carousel" data-slide-to="1"></li>
-                    <li data-target="#Carousel" data-slide-to="2"></li>
                 </ol>
                  
                 <!-- Carousel items -->
@@ -131,31 +131,26 @@
                     
                 <div class="item active">
                 	<div class="row">
-                	  <div class="col-md-2"><a href="#" class="thumbnail"><img src="images/Cisco_logo.png" alt="Image" style="max-width:100%;"></a></div>
-                	  <div class="col-md-2"><a href="#" class="thumbnail"><img src="images/KfW_logo.png" alt="Image" style="max-width:100%;"></a></div>
-                	  <div class="col-md-2"><a href="#" class="thumbnail"><img src="images/SFDC_logo.png" alt="Image" style="max-width:100%;"></a></div>
-                	  <div class="col-md-2"><a href="#" class="thumbnail"><img src="images/udacity.png" alt="Image" style="max-width:100%;"></a></div>
+               	     <div class="col-md-8 col-md-offset-2">
+                	  <div class="col-sm-4 img-carousel"><a href="#"><img src="images/Cisco_logo.png" width="200px" height="120px" alt="Image" ></a></div>
+                	  <div class="col-sm-4 img-carousel"><a href="#"><img src="images/KfW_logo.png" width="200px" height="120px"  alt="Image" ></a></div>
+                	  <div class="col-sm-4 img-carousel"><a href="#"><img src="images/SFDC_logo.png" width="200px" height="120px"  alt="Image" ></a></div>
+                	 
+						</div>
                 	</div><!--.row-->
                 </div><!--.item-->
                  
                 <div class="item">
                 	<div class="row">
-                		<div class="col-md-2"><a href="#" class="thumbnail"><img src="images/AmazonWebservices_Logo.svg.png" alt="Image" style="max-width:100%;"></a></div>
-                		<div class="col-md-2"><a href="#" class="thumbnail"><img src="images/-Db-bahn.svg.png" alt="Image" style="max-width:100%;"></a></div>
-                		<div class="col-md-2"><a href="#" class="thumbnail"><img src="images/logo-mixpanel.png" alt="Image" style="max-width:100%;"></a></div>
-                		<div class="col-md-2"><a href="#" class="thumbnail"><img src="images/0git-logo.png" alt="Image" style="max-width:100%;"></a></div>
+                	 <div class="col-md-8 col-md-offset-2">
+                	  <div class="col-sm-4 img-carousel"><a href="#"><img src="images/AmazonWebservices_Logo.svg.png" width="200px" height="120px"  alt="Image" ></a></div>
+                	  <div class="col-sm-4 img-carousel"><a href="#"><img src="images/-Db-bahn.svg.png" width="200px" height="120px"  alt="Image" ></a></div>
+                	  <div class="col-sm-4 img-carousel"><a href="#"><img src="images/logo-mixpanel.png" width="200px" height="120px"  alt="Image" ></a></div>
+                	  
+						</div>
                 	</div><!--.row-->
                 </div><!--.item-->
-                 
-                <div class="item">
-                	<div class="row">
-                		<div class="col-md-2"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
-                		<div class="col-md-2"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
-                		<div class="col-md-2"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
-                		<div class="col-md-2"><a href="#" class="thumbnail"><img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;"></a></div>
-                	</div><!--.row-->
-                </div><!--.item-->
-                 
+                
                 </div><!--.carousel-inner-->
                   <a data-slide="prev" href="#Carousel" class="left carousel-control">‹</a>
                   <a data-slide="next" href="#Carousel" class="right carousel-control">›</a>
@@ -188,8 +183,8 @@
 </article>
 <!--- End of Subscribe Section-->
 <!--- Footer -->
-     <footer class="panel-footer">
-        <div class="container">
+<footer class="panel-footer">
+        <div class="container">    
             <div class="row">
               <section id="logo-footer" class="col-sm-2">
                     <img src="images/logo-footer.png" width="68" height="69" alt=""/>
@@ -197,13 +192,13 @@
                 </section>
               <section id="sub-information" class="col-sm-2">
                     <a href="#"><span> &gt; Our mission </span></a><br>
-                    <a href="#"><span> &gt; FAQ </span></a><br>
-                    <a href="contact.html"><span> &gt; Contact </span></a>
+                    <a href="#"><span> &gt; FAQ &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </span></a><br>
+                    <a href="contact.html"><span> &gt; Contact &nbsp &nbsp &nbsp &nbsp </span></a>
                     <hr class="visible-xs">
                 </section>
               <section id="sub-pages" class="col-sm-2">
-                   <a href="#"><span> &gt; Our students </span></a><br>
-                   <a href="#"><span> &gt; Our tutors </span></a><br>
+                   <a href="#"><span> &gt; Our students &nbsp &nbsp &nbsp &nbsp</span></a><br>
+                   <a href="#"><span> &gt; Our tutors &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  </span></a><br>
                    <a href="#"><span> &gt; Our contributors </span></a>
                    <hr class="visible-xs">
                 </section>
@@ -239,12 +234,13 @@
                 </section>
             </div>
             <div id="btn-footer" class="pull-right">
-            	<a href="#"><img src="images/btn-footer.png" width="76" height="66" alt=""/></a>
+            	<a id="moveUp" href="#"><img src="images/btn-footer.png" width="76" height="66" alt=""/></a>
             </div>
         </div>
     </footer>
 <!--- End Footer -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
