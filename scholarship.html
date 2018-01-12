@@ -31,12 +31,12 @@
                 </button>
             </div>
             <div id="row-nav" class="row">
-            <div id="collapsable-nav" class="collapse navbar-collapse">
+              <div id="collapsable-nav" class="collapse navbar-collapse col-md-offset-2">
                 <ul id="nav-list" class="nav navbar-nav">
-                    <li id="navHomeButton" >
+                    <li class="">
                         <a href="index.html"><br class="hidden-xs">HOME</a>
                     </li>
-                    <li id="navMenuButton">
+                    <li>
                         <a href="for-companies.html"><br class="hidden-xs">FOR COMPANIES</a>
                     </li>
                     <li>
@@ -50,7 +50,7 @@
                     </li>
                     <li role="separator" class="divider"></li>
                 </ul><!-- #nav-list -->
-            </div><!-- .collapse .navbar-collapse -->
+              </div><!-- .collapse .navbar-collapse -->
             </div>
             <div class="col-md-12 text-area">
                 <p id="networking-text">Codedoor helps individuals to<br>learn how to code and get a job</p>
@@ -170,12 +170,11 @@
   </div>
 </article>
 <!-- End content -->
-
 <!--- Subscribe Section -->
 <article id="subscribe-section" class=" col-lg-12">
      <div class="container">
          <div class="row">
-             <div id="envelop-section" class="col-sm-offset-2 col-sm-5">
+             <div id="envelop-section" class="col-sm-offset-2 col-sm-4">
                  <span class="pull-left">
                      <img src="images/envelop.png" width="44" height="44" alt=""/>
                  </span>
@@ -183,7 +182,7 @@
              </div>
              <form action="#" method="post" class="form-horizontal" id="subscription-form" enctype="multipart/form-data">
                  <div class="form-group">
-                     <div class="col-sm-3 col-xs-7 email-input">
+                     <div class="col-sm-3 col-xs-6 email-input">
                          <input type="text" class="form-control" name="email" id="sub-email" placeholder="Enter your eMail">
                      </div>
                      <div  class="btn-submit">
@@ -196,22 +195,24 @@
 </article>
 <!--- End of Subscribe Section-->
 <!--- Footer -->
-     <footer class="panel-footer">
-        <div class="container">
+    <footer class="panel-footer">
+        <div class="container"> 
+           <div class="col-lg-10 col-lg-offset-1">   
             <div class="row">
-              <section id="logo-footer" class="col-sm-2">
+             
+              <section id="logo-footer" class="col-sm-1">
                     <img src="images/logo-footer.png" width="68" height="69" alt=""/>
                     <hr class="visible-xs">
                 </section>
               <section id="sub-information" class="col-sm-2">
                     <a href="#"><span> &gt; Our mission </span></a><br>
-                    <a href="#"><span> &gt; FAQ </span></a><br>
-                    <a href="contact.html"><span> &gt; Contact </span></a>
+                    <a href="#"><span> &gt; FAQ &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </span></a><br>
+                    <a href="contact.html"><span> &gt; Contact &nbsp &nbsp &nbsp &nbsp </span></a>
                     <hr class="visible-xs">
                 </section>
-              <section id="sub-pages" class="col-sm-2">
-                   <a href="#"><span> &gt; Our students </span></a><br>
-                   <a href="#"><span> &gt; Our tutors </span></a><br>
+              <section id="sub-pages" class="col-sm-3">
+                   <a href="#"><span> &gt; Our students &nbsp &nbsp &nbsp &nbsp</span></a><br>
+                   <a href="#"><span> &gt; Our tutors &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  </span></a><br>
                    <a href="#"><span> &gt; Our contributors </span></a>
                    <hr class="visible-xs">
                 </section>
@@ -249,11 +250,12 @@
             <div id="btn-footer" class="pull-right">
             	<a id="moveUp" href="#"><img src="images/btn-footer.png" width="76" height="66" alt=""/></a>
             </div>
+            </div>
         </div>
-    </footer>
+    </footer> 
 <!--- End Footer -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-	<script src="js/script.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

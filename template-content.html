@@ -14,10 +14,10 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
-<header>
+<header id="about-us-header-background">
     <nav id="header-nav" class="navbar navbar-default">
         <div class="container-fluid">
-            <div id="nav-logo" class="navbar-header">
+            <div id="nav-logo"  class="navbar-header">
                 <a id="logo-box" href="index.html" >
                     <div id="logo-img">
                       <img src="images/codedoor-logo.png" width="75" height="75">
@@ -31,12 +31,12 @@
                 </button>
             </div>
             <div id="row-nav" class="row">
-            <div id="collapsable-nav" class="collapse navbar-collapse">
+              <div id="collapsable-nav" class="collapse navbar-collapse col-md-offset-2">
                 <ul id="nav-list" class="nav navbar-nav">
-                    <li id="navHomeButton" >
+                    <li class="">
                         <a href="index.html"><br class="hidden-xs">HOME</a>
                     </li>
-                    <li id="navMenuButton">
+                    <li>
                         <a href="for-companies.html"><br class="hidden-xs">FOR COMPANIES</a>
                     </li>
                     <li>
@@ -50,23 +50,51 @@
                     </li>
                     <li role="separator" class="divider"></li>
                 </ul><!-- #nav-list -->
-            </div><!-- .collapse .navbar-collapse -->
+              </div><!-- .collapse .navbar-collapse -->
             </div>
-            <div class="col-md-12">
-                <img id="books-img" src="images/codedoor.png " alt="photo">
-                <p id="networking-text">Networking.<br> become partner.</p>
+            <div class="col-md-12 text-area">
+                <p id="networking-text">we bring together companies,<br> developers and programmers in one place</p>
                 <p id="form-3"></p>
-                <p id="codedoor-motto">CodeDore educate create perspectives,<br>connect people and promote participation in society.</p>
-            </div>
+                <p class="contact-text"> The network and education create new perspectives</p>
+                <a href="#"><button type="button" class="btn btn-primary">Get in touch - Contact us &gt; </button></a>
+            </div>           
         </div><!-- .container -->
     </nav><!-- #header-nav -->
 </header>
+<!--- page content -->
+<article class="container-fluid">
+	<div id="template_section1" class="row">
+		<div class="col-md-8 col-md-offset-2">
+		  <div class="col-sm-6">
+	  	  <img class="img-responsive" src="images/template_content.jpg"  alt="image"/> 
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+	  	  </div>
+		  <div class="col-sm-6">
+		  	
+		  </div>
+	  </div>
+	</div>
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+           <div col-sm-6>
+           	
+           </div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
 
+		</div>
+	</div>
+
+</article>
+
+<!---end page content -->
 <!--- Subscribe Section -->
 <article id="subscribe-section" class=" col-lg-12">
      <div class="container">
          <div class="row">
-             <div id="envelop-section" class="col-sm-offset-2 col-sm-5">
+             <div id="envelop-section" class="col-sm-offset-2 col-sm-4">
                  <span class="pull-left">
                      <img src="images/envelop.png" width="44" height="44" alt=""/>
                  </span>
@@ -74,7 +102,7 @@
              </div>
              <form action="#" method="post" class="form-horizontal" id="subscription-form" enctype="multipart/form-data">
                  <div class="form-group">
-                     <div class="col-sm-3 col-xs-7 email-input">
+                     <div class="col-sm-3 col-xs-6 email-input">
                          <input type="text" class="form-control" name="email" id="sub-email" placeholder="Enter your eMail">
                      </div>
                      <div  class="btn-submit">
@@ -87,22 +115,24 @@
 </article>
 <!--- End of Subscribe Section-->
 <!--- Footer -->
-     <footer class="panel-footer">
-        <div class="container">
+    <footer class="panel-footer">
+        <div class="container"> 
+           <div class="col-lg-10 col-lg-offset-1">   
             <div class="row">
-              <section id="logo-footer" class="col-sm-2">
+             
+              <section id="logo-footer" class="col-sm-1">
                     <img src="images/logo-footer.png" width="68" height="69" alt=""/>
                     <hr class="visible-xs">
                 </section>
               <section id="sub-information" class="col-sm-2">
                     <a href="#"><span> &gt; Our mission </span></a><br>
-                    <a href="#"><span> &gt; FAQ </span></a><br>
-                    <a href="contact.html"><span> &gt; Contact </span></a>
+                    <a href="#"><span> &gt; FAQ &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </span></a><br>
+                    <a href="contact.html"><span> &gt; Contact &nbsp &nbsp &nbsp &nbsp </span></a>
                     <hr class="visible-xs">
                 </section>
-              <section id="sub-pages" class="col-sm-2">
-                   <a href="#"><span> &gt; Our students </span></a><br>
-                   <a href="#"><span> &gt; Our tutors </span></a><br>
+              <section id="sub-pages" class="col-sm-3">
+                   <a href="#"><span> &gt; Our students &nbsp &nbsp &nbsp &nbsp</span></a><br>
+                   <a href="#"><span> &gt; Our tutors &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  </span></a><br>
                    <a href="#"><span> &gt; Our contributors </span></a>
                    <hr class="visible-xs">
                 </section>
@@ -140,11 +170,12 @@
             <div id="btn-footer" class="pull-right">
             	<a id="moveUp" href="#"><img src="images/btn-footer.png" width="76" height="66" alt=""/></a>
             </div>
+            </div>
         </div>
-    </footer>
+    </footer> 
 <!--- End Footer -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-	<script src="js/script.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
