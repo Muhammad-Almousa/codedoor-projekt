@@ -105,7 +105,7 @@ a:active, a:hover, a:visited{
     font-weight: bold;
 	
 }
-.active a{
+.active {
     background: none !important;
     border-bottom: solid;
 }
