@@ -107,7 +107,7 @@ a:active, a:hover, a:visited{
 }
 .active {
     background: none !important;
-    border-bottom: solid;
+    border-bottom: solid #fff;
 }
 
  #books-img{
