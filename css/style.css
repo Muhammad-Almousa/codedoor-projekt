@@ -1369,7 +1369,22 @@ margin: 0px
 			padding: 20px;
 		}
 	/*End for companies*/
-	
+	#background-community{
+    background-image: none;
+    height: 100%;
+    padding-top: 50px;
+}
+.photo-community {
+  width: 200px;
+  height: 200px;
+  background: #fff;
+  border-radius: 100%;
+  text-align: center;
+  margin: 10px auto;
+}
+.email-input {
+  padding-left: 30px;
+}
 	
 /* Place the timelime to the left */
   .timeline::after {
@@ -1623,6 +1638,10 @@ margin: 0px
 	/*End Footer*/
 	.contact-info {
     border-right: none;
+}
+.active {
+  background: none !important;
+  border: solid #fff;
 }
 }
 
